@@ -57,7 +57,7 @@ func index(w http.ResponseWriter, req *http.Request) {
 	}
 
 	data := fetchData(req)
-	fmt.Fprintln(w, "Some test string")
+	fmt.Fprintln(w, "This is some xkpfheyc test string")
 	fmt.Fprintln(w, "Hostname:", data.Hostname)
 
 	for _, ip := range data.IP {
